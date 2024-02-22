@@ -1,0 +1,48 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Montserrat:wght@500;600&family=Open+Sans:ital@1&family=Oswald&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,400;1,700&family=Skranji&family=Ubuntu&display=swap');
+
+#main{
+    max-width: 1200px;
+    width: 90%;
+    /* background-color: #a2b7b5; */
+    background-color: #ddd;
+    height: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    opacity: 0;
+    /* scale: 0.9; */
+    
+}
+.second{
+    /* margin-top: 1rem; */
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgb(240, 248, 255);
+    width: 50%;
+    margin: 0 auto;
+    /* scale: 0.8; */
+   
+}
+#name{
+  
+    font-size: 16px;
+    color: black;
+}
+strong{
+    color: blue;
+}
+tt{
+    float: right;
+}
+*{
+    margin: 0;
+/* padding: 0; */
+/* box-sizing: border-box; */
+}
