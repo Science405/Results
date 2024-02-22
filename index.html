@@ -4,34 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JANAK || MONTHLY TEST || RESULT</title>
+    <title>JANAK || RE-EXAM|| RESULT</title>
+    <link rel="stylesheet" href="style.css">
     <style type="text/css">
         
-        
+        body{
+            background-color: #777;
+            font-family: Montserrat;
+            /* position: fixed; */
+            /* margin: 0 auto; */
+        }
         #center{
        
-    position: -webkit-sticky;
-      
+    /* position: -webkit-sticky; */
+      margin: 10px;
       width:300px;
       height: 150px;
-        background:linear-gradient(120deg,#b92929,#44ad5b);
+        /* background:linear-gradient(120deg,#b92929,#44ad5b); */
+        background: #aaaaaac5;
         border-radius: 10px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
-        body{
-            background: 
-            linear-gradient(#000,#0000cc);
+        .sec{
+            margin: 0 auto;
+            /* transform: translate(50%,50%); */
+/* background-color: aliceblue; */
+/* position: fixed; */
+
+
+
         }
-        #press{
-            background-color:red;
-             color:black;
-        }
-        #test{
-            padding-bottom:0;
-            margin-bottom: 2%;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        .head{
+    width: 100%;
+    margin: 3px;
+    line-height: 20px;
+    font-size: 14px;
+    
+}
+
+
+        legend{
+  /* padding:10px; */
+  background-color:#240027;
+  border:1px solid #228409;
+  /* font:24px Verdana,Arial, Tahoma;  */
+  font-weight:bold;
+  /* font-size:100%; */
+  color:#FFF;
+  text-align:center;
+  border-radius: 5px;
+  /* height: 25%; */
+  padding:8px ;
+  /* display: inline-block; */
+
+}	
+        #helt{
         
+            background: linear-gradient(#000000,rgba(0, 0, 255, 0.819));   
+            /* background-color:  #f2f2f262; */
+            background-size:cover;
+            max-width: 1200px;
+            width: 90%;
+            height: 500px;
+            margin: 0 auto;
+            /* left: 50%; */
+            /* position: fixed; */
+margin-top: 80px;
+border-radius: 30px;
+               }
+        #press{
+            font:12px Verdana,Arial, Tahoma;
+            background-color:#33AD14;
+             color:#ddd;
+             padding:8px;
+             border-radius:5px ;
         }
+        #press:hover{
+            background-color: rgb(0, 0, 47);
+        }
+     
         h2{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: silver;
@@ -39,34 +90,157 @@
         h3{
             font-family:Arial, Helvetica, sans-serif;
             color:floralwhite;
+            /* margin-bottom: 0.9rem; */
         }
-        #button:focus{
-            padding:3px;
+        input[type="number"]{
+            background-color:aliceblue;
+            padding: 5px 5px 5px 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        #results{
+            background-color: #00ff37;
+            color: red;
         }
         
+
+
+        @media (max-width:500px){
+            html{
+font-size: 60%;
+            }
+            #helt{
+                margin-top: 0px;
+            }
+              h4,h3,h2{ 
+                font-size: 1.7rem;
+            } 
+            #center{
+                /* padding: 10px; */
+width: 25rem;
+height: 15rem;
+            }
+            #main{
+                width: 100%;
+            }
+            .second{
+                width: 80%;
+                /* font-size: 16px; */
+                
+            }
+            #name{
+                font-size: 100%;
+            }
+            table{
+                max-width: 1200px;
+                width: 100%;
+            }
+            td,th{
+                font-size: 1.3rem;
+            }
+            /* #helt{
+                height: 35rem;
+            } */
+            /* h2{
+                font-size: 10px;
+            } */
+            .sec{
+                padding: 10px;
+            }
+            legend{
+                font-size: 1.7rem;
+            }
+        }
     </style>
 </head>
-<body><center>
-    <h2><b>JANAK SECONDARY SCHOOL &nbsp;'SCIENCE'</b><h3>Gaindakot-5,&nbsp;Nawalpur</h3></h2>
-    
+<body oncontextmenu="return false">
+<div id="helt">
+    <div class="sec">
+    <center>
+    <h2><b>JANAK SECONDARY SCHOOL &nbsp;'SCIENCE'</b></h2><br><h3>Gaindakot-5,&nbsp;Nawalpur</h3>
+        <br>
+    <br>
     <div id="center">
     
-   <form border="2px" ><div id="test"><h4><b>ReExam Result
-
-   </b><br>[11 and 12]<hr size="2"width="70%"color="teal"></h4></div>
-<B><font face="Verdana">CLASS:</font></B> <input type="number"id="class"placeholder="Enter your Class..."><br>
-<p></p>
- <button id="press"onclick="result()"><b><font family="linear-gradient">Submit
-    </font>
+   
+    
+    <legend>XI,XII RE-EXAM RESULT</legend></h4><br>
+<B><font size="3">CLASS:</font></B> <input type="number"id="class"required placeholder="Enter your Class...&nbsp;&nbsp;eg:11"><br>
+<p></p><br>
+ <button id="press"onclick="result()"><b>Submit
+    
  </b></button>
-    </form>
+    
 
 </div><br>
 <b><i><h3>+2 Coordinator : Narayan Sharma Tiwari<br>Contact No:&nbsp;9855038352
-</h3></i></b>
+</h3><br><hr color="red"></i></b>
 </center>
+</div></div>
 
-    <script src="check.js"></script>
+<div id="main">
+
+<div class="second">
+    <strong>GRADE-SHEET</strong>
+    <br><br>
+    <div class="head">
+    THE GRADE SECURED BY <b ID="name"></b><br>
+    CLASS:<b id="classe"></b><br>
+    SYMBOL NO: <B id="sym"></B>
+    <br><br>
+    <tt>
+  <b>  FULL MARKS:25<BR>
+    PASS MARKS:10</b></tt></div>
+    <table cellspacing="0"cellpadding="15"border="2"border-color="#eee"width="80%">
+ <thead>
+    <tr width="30%"bgcolor="silver"><th>SN</th><th>SUBJECT</th><th>OBTAINED MARKS</th></tr>
+ </thead>
+ <tbody>
+    <tr>
+        <td>1</td>
+        <td width="50%">ENGLISH</td>
+    <td id="english"></td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>NEPALI</td>
+<td id="nepali"></td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>MATHEMATICS</td>
+<td id="math"></td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>PHYSICS</td>
+<td id="physics"></td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>CHEMISTRY</td>
+<td id="chemistry"></td>
+</tr>
+<tr>
+    <td>6</td>
+    <td ID="optionalsub"></td>
+<td id="combio"></td>
+</tr>
+
+ </tbody>
+
+    </table>
+    <br>
+    <font family="sans-serif"size="5">
+    Result:<B id="results"></B>
+    </font>
+</div>
+
+</div>
+
+     <script src="check.js"></script>
     
+    
+  
         </body>
 </html>
