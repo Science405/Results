@@ -1,48 +1,73 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:ital@1&family=Oswald&family=Roboto&family=Roboto+Slab:wght@500&family=Skranji&family=Ubuntu&display=swap');
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Montserrat:wght@500;600&family=Open+Sans:ital@1&family=Oswald&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,400;1,700&family=Skranji&family=Ubuntu&display=swap');
-
-#main{
-    max-width: 1200px;
-    width: 90%;
-    /* background-color: #a2b7b5; */
-    background-color: #ddd;
-    height: 100%;
-    margin: 0 auto;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin-top: 1rem;
-    padding-bottom: 1rem;
-    opacity: 0;
-    /* scale: 0.9; */
-    
+*{
+  box-sizing: border-box;
 }
 .second{
-    /* margin-top: 1rem; */
-    padding: 20px;
-    font-family: sans-serif;
-    font-weight: 500;
-    text-align: center;
-    background-color: rgb(240, 248, 255);
-    width: 50%;
-    margin: 0 auto;
-    /* scale: 0.8; */
-   
-}
-#name{
+  border: 2px solid black;
+  margin-top: 15px;
+  margin-left: 10px;
   
-    font-size: 16px;
-    color: black;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
-strong{
-    color: blue;
+.third{
+  /* display: inline-block; */
+  float: absolute;
+
 }
-tt{
-    float: right;
+
+#main-contain{
+  border: 2px solid white;
+  width: 740px;
+  height: 1020px;
+margin:0 auto;
+/* opacity: 0; */
+display: none;
+background-color: whitesmoke;
+/* margin: 200px; */
+
 }
-*{
-    margin: 0;
-/* padding: 0; */
-/* box-sizing: border-box; */
+h4{
+  float: right;
+
+}
+.imgs{
+float: left;
+height: 70px;
+background-repeat: no-repeat;
+margin-left: 15px;
+margin-top: 5px;
+}
+
+.gra{
+  text-align: center;
+  text-decoration: bold;
+}
+header{
+  padding: 10px;
+  word-spacing:10px;
+}
+.tbl{
+  margin: 10px;
+  
+}
+#name1, #sym1 ,#cls1, #dob1{
+  border-bottom: 2px dashed black;
+  
+}
+/* .h,.h1,.h2,.h3{
+  display: inline-block;
+  margin-right: 45px;
+  padding-top: 3px;
+  border-top: 2px dashed black;
+}  */
+
+
+
+@media (max-width:500px){
+   
 }
