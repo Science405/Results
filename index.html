@@ -1,11 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JANAK || RE-EXAM|| RESULT</title>
+    <title>JANAK || EXAM|| RESULT</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style type="text/css">
         
         body{
@@ -18,8 +20,8 @@
        
     /* position: -webkit-sticky; */
       margin: 10px;
-      width:300px;
-      height: 150px;
+      width:37rem;
+      height: 10rem;
         /* background:linear-gradient(120deg,#b92929,#44ad5b); */
         background: #aaaaaac5;
         border-radius: 10px;
@@ -78,6 +80,7 @@ border-radius: 30px;
              color:#ddd;
              padding:8px;
              border-radius:5px ;
+             
         }
         #press:hover{
             background-color: rgb(0, 0, 47);
@@ -87,7 +90,7 @@ border-radius: 30px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: silver;
         }
-        h3{
+        #gan{
             font-family:Arial, Helvetica, sans-serif;
             color:floralwhite;
             /* margin-bottom: 0.9rem; */
@@ -97,47 +100,82 @@ border-radius: 30px;
             padding: 5px 5px 5px 10px;
             border-radius: 5px;
             border: none;
+            font-size: 20px;
         }
         #results{
             background-color: #00ff37;
             color: red;
         }
+        div#decor1{
+            background-color:#0396cd;
+            width:880px; height:auto;
+	margin:0 auto; padding:10px 34px 10px;
+	border:5px Solid #fff;
+            margin: 0 auto;
+            display: none;
+        }
+        font{
+                font-size: 20px;
+            }
+        div#decor2{
+            background-color:#0396cd;
+            width:880px; height:auto;
+	margin:0 auto; padding:10px 34px 10px;
+	border:5px Solid #fff;
+            margin: 0 auto;
+            display: none;
+        }
+        #resulting{
+            color: aliceblue;
+            /* display: flex; */
+            margin: 0 auto;
+        }
+        @media print {
+            
+#helt{
+    display: none;
+}
+           }
         
 
 
         @media (max-width:500px){
             html{
-font-size: 60%;
+font-size: 74%;
             }
             #helt{
-                margin-top: 0px;
+                /* width: 50rem; */
+                max-width: 1200px;
+                width: 800px;
+                /* margin-left: 4rem; */
+               margin: 0px 15px 0px 15px;
             }
-              h4,h3,h2{ 
+          
+              h4,#gan,h2{ 
                 font-size: 1.7rem;
             } 
             #center{
                 /* padding: 10px; */
-width: 25rem;
-height: 15rem;
+width: 55rem;
+height: 16.5rem;
             }
-            #main{
-                width: 100%;
+
+            input[type="number"]{
+                font-size: 25px;
+                padding: 10px;
+                width: 28rem;
             }
-            .second{
-                width: 80%;
-                /* font-size: 16px; */
-                
+            #press{
+                padding: 14px;
+                font-size: 20px;
+
             }
-            #name{
-                font-size: 100%;
+            font{
+                font-size: 30px;
             }
-            table{
-                max-width: 1200px;
-                width: 100%;
-            }
-            td,th{
-                font-size: 1.3rem;
-            }
+            
+           
+           
             /* #helt{
                 height: 35rem;
             } */
@@ -150,6 +188,24 @@ height: 15rem;
             legend{
                 font-size: 1.7rem;
             }
+
+            /* for grade only */
+
+        #main-contain{
+            max-width: 65rem;
+            width: 65rem;
+            height: 83rem;
+            font-size: 14px;
+            
+        }
+           table{
+            width: 55rem;
+          
+           }
+       
+           
+           
+            
         }
     </style>
 </head>
@@ -157,90 +213,182 @@ height: 15rem;
 <div id="helt">
     <div class="sec">
     <center>
-    <h2><b>JANAK SECONDARY SCHOOL &nbsp;'SCIENCE'</b></h2><br><h3>Gaindakot-5,&nbsp;Nawalpur</h3>
+    <h2><b>JANAK SECONDARY SCHOOL &nbsp;'SCIENCE'</b></h2><h3 id="gan">Gaindakot-5,&nbsp;Nawalpur</h3>
         <br>
-    <br>
+    
     <div id="center">
     
    
     
-    <legend>XI,XII RE-EXAM RESULT</legend></h4><br>
-<B><font size="3">CLASS:</font></B> <input type="number"id="class"required placeholder="Enter your Class...&nbsp;&nbsp;eg:11"><br>
-<p></p><br>
- <button id="press"onclick="result()"><b>Submit
+    <legend>XI ANNUAL EXAM RESULT</legend></h4><br>
+<b><font size="3">CLASS&nbsp;&nbsp;&nbsp;:</font></b>&nbsp;&nbsp;&nbsp; <input type="number"id="class" placeholder="Enter your Class...&nbsp;&nbsp;eg:11"required>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <button id="press"onclick="recalling()"><b>Submit
     
  </b></button>
     
 
 </div><br>
-<b><i><h3>+2 Coordinator : Narayan Sharma Tiwari<br>Contact No:&nbsp;9855038352
+<b><i><h3 id="gan">+2 Coordinator : Narayan Sharma Tiwari<br>Contact No:&nbsp;9855038352
 </h3><br><hr color="red"></i></b>
 </center>
 </div></div>
-
-<div id="main">
-
-<div class="second">
-    <strong>GRADE-SHEET</strong>
-    <br><br>
-    <div class="head">
-    THE GRADE SECURED BY <b ID="name"></b><br>
-    CLASS:<b id="classe"></b><br>
-    SYMBOL NO: <B id="sym"></B>
-    <br><br>
-    <tt>
-  <b>  FULL MARKS:25<BR>
-    PASS MARKS:10</b></tt></div>
-    <table cellspacing="0"cellpadding="15"border="2"border-color="#eee"width="80%">
- <thead>
-    <tr width="30%"bgcolor="silver"><th>SN</th><th>SUBJECT</th><th>OBTAINED MARKS</th></tr>
- </thead>
- <tbody>
-    <tr>
-        <td>1</td>
-        <td width="50%">ENGLISH</td>
-    <td id="english"></td>
-</tr>
-<tr>
-    <td>2</td>
-    <td>NEPALI</td>
-<td id="nepali"></td>
-</tr>
-<tr>
-    <td>3</td>
-    <td>MATHEMATICS</td>
-<td id="math"></td>
-</tr>
-<tr>
-    <td>4</td>
-    <td>PHYSICS</td>
-<td id="physics"></td>
-</tr>
-<tr>
-    <td>5</td>
-    <td>CHEMISTRY</td>
-<td id="chemistry"></td>
-</tr>
-<tr>
-    <td>6</td>
-    <td ID="optionalsub"></td>
-<td id="combio"></td>
-</tr>
-
- </tbody>
-
-    </table>
-    <br>
-    <font family="sans-serif"size="5">
-    Result:<B id="results"></B>
-    </font>
-</div>
-
-</div>
-
-     <script src="check.js"></script>
+     <script src="maintainer.js"></script>
     
+    <!-- end of the entry one -->
+
+
+    <!-- ............. -->
+<!-- ..........For the marksheet........... -->
+
+<br><br>
+<!-- making of loading result -->
+<div id="decor2">
+    <h2 id="resulting">The Result is loading ....</h2>
+</div>
+<br> <br>
+<div id="decor1">
+
+    <br><br><br>
+<div id="main-contain">
+    <h4>
+       <i class="fas fa-phone-volume"></i>:078-501112&nbsp;
+</h4>
+  <div class="second">
+         <div class="third"> <img src="logo.png" alt="logo of school"class="imgs">
+          <center>
+<H3>JANAK MODEL SECONDARY SCHOOL<BR>GAINDAKOT-5,NAWALPUR<BR>Estd:2015</H3></center>
+    </div>
+    <hr color="#eee">
+ 
+    <h3 class="gra">GRADE-SHEET</h3>
     
+    <header>
+    THE GRADE(S) SECURED BY <B id="name1"></B></b>&nbsp;&nbsp;&nbsp;
+    SYMBOL NO:&nbsp;&nbsp;<b id="sym1"></b>&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;DATE OF BIRTH:&nbsp;&nbsp;
+    <b id="dob1"></b>&nbsp;&nbsp;&nbsp;&nbsp;
+    GRADE:&nbsp;&nbsp;&nbsp;<b id="cls1"></b>
   
-        </body>
+    &nbsp;&nbsp;
+   
+    IN THE ANNUAL EXAMINATION CONDUCTED IN 2081 BS ARE GIVEN BELOW:
+</header>   
+<br>
+<table border="3"border-color="black"cellpadding="10"cellspacing="0"class="tbl">
+<thead>
+ <tr>
+    <td width="1%">Subject Code</td>
+    <td width="30%"align="center">Subjects</td>
+    <td width="1%">Credit Hour<br>(CH)</td>
+    <td width="10%">Grade Point<br>(GP)</td>
+    <td width="10%"align="center">Grade</td>
+    <td width="3%">Final Grade<br>(FG)</td>
+    <td width="10%">Remarks</td>
+ </tr>
+</thead>
+
+<tbody>
+<tr>
+ <td>0031</td>
+ <td>COM.ENGLISH</td>
+ <td>3.00(TH)<br>1.00(IN)</td>
+ <td id="engthpr"></td>
+ <td id="gr1"></td>
+ <td id="mark1"align="center"></td>
+ <td id="remarkeng"></td>
+</tr>
+
+
+<tr>
+ <td>0011</td>
+ <td>COM.NEPALI</td>
+ <td>2.25(TH)<br>0.75(IN)</td>
+ <td id="nepthpr"></td>
+ <td id="gr2"></td>
+ <td id="mark2"align="center"></td>
+ <td id="remarknep"></td>
+</tr>
+
+
+
+<tr>
+ <td>0071</td>
+ <td>COM.MATHEMATICS</td>
+ <td>3.75(TH)<br>1.25(IN)</td>
+ <td id="maththpr"></td>
+ <td id="gr3"></td>
+ <td id="mark3"align="center"></td>
+ <td id="remarkmath"></td>
+</tr>
+
+
+
+<tr>
+ <td>1011</td>
+ <td>PHYSICS</td>
+ <td>3.75(TH)<br>1.25(IN)</td>
+ <td id="phythpr"></td>
+ <td id="gr4"></td>
+ <td id="mark4"align="center"></td>
+ <td id="remarkphy"></td>
+</tr>
+
+
+
+<tr>
+ <td>3011</td>
+ <td>CHEMISTRY</td>
+ <td>3.75(TH)<br>1.25(IN)</td>
+ <td id="chethpr"></td>
+ <td id="gr5"></td>
+ <td id="mark5"align="center"></td>
+ <td id="remarkche"></td>
+</tr>
+
+
+
+<tr>
+ <td>4271</td>
+ <td id="change"></td>
+ <td id="change1"></td>
+ <td id="comthpr"></td>
+ <td id="gr6"></td>
+ <td id="mark6"align="center"></td>
+ <td id="remarkcom"></td>
+</tr>
+
+
+<tr>
+ <td></td>
+ <td></td>
+ <td colspan="4"align="center"><b>Grade Point Average(GPA):</b></td>
+ <td colspan="2"><b id="gpatotal"></b></td>
+</tr>
+
+
+</tbody>
+
+</table>
+<hr color="gray"><br>
+NOTE&nbsp;:&nbsp;&nbsp;&nbsp;ONE CREDIT HOUR EQUALS TO 32 WORKING HOURS.<br>
+INTERNAL(IN)&nbsp;:&nbsp;&nbsp;THIS COVERS THE PARTICIPATION,PRACTICAL/PROJECTS WORKS,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INTERNSHIP,COMMUNITY WORKS,PRESENTATIONS TERMINAL EXAMINATION.
+
+<br>THEORY (TH) &nbsp;:&nbsp;THIS COVERS WRITTEN EXTERNAL EXAMINATION&nbsp;&nbsp;&nbsp;
+[
+ABS=&nbsp;ABSENT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W=WITHHELD]
+<!-- <h3 class="h">
+Head Principal     
+</h3><h3 class="h1">Class Teacher</h3><h3 class="h2">Exam Coordinator</h3><h3 class="h3">+2 Coordinator</h3></footer>  -->
+
+</div>
+ </div> <br><br><br></div>
+
+
+
+
+  
+
+</body>
 </html>
