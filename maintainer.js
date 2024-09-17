@@ -1183,17 +1183,20 @@ const class11=()=>{
            
     switch(symbol){
     
-            case "17600128":
-                callingforgrade("BIGYAN BASTAKOTI",17600128,"2064-01-05","ELEVEN","computer",60,25,60,25,68,25,68,25,68,25,50,50);
+            case "11401":
+                callingforgrade("AARATI TIMILSINA",11401,"2064-01-05","ELEVEN","BIOLOGY",60,25,59,25,35,25,27,25,68,25,50,25);
                 break;
                 
                 case "11402":
-callingforgrade("DIPAN RAJ NEUPANE",11402,"2064/05/13","ELEVEN","computer",50,25,50,25,27,25,27,25,27,25,40,50);                            
+callingforgrade("DIPAN RAJ NEUPANE",11402,"2064/05/13","ELEVEN","computer",50,25,50,25,22,25,24,25,27,25,40,50);                            
     break;
 
-
-    case "11407":
-      callingforgrade("BIGYAN BASTAKOTI",11407,"2064/01/05","ELEVEN","biology",58,25,58,25,68,25,60,25,60,25,75,25);
+ case "11403":
+callingforgrade("BASANTA PRASAD IIWARI",11403,"2064/02/11","ELEVEN","computer",45,25,50,25,45,25,45,25,27,25,45,50);                            
+    break;
+            
+    case "11404":
+      callingforgrade("ADITI POUDEL",11404,"2064/12/15","ELEVEN","biology",58,25,52,25,52,25,52,25,60,25,60,25);
       break;
     
     
