@@ -1184,22 +1184,167 @@ const class11=()=>{
     switch(symbol){
     
             case "11401":
-                callingforgrade("AARATI TIMILSINA",11401,"2064-01-05","ELEVEN","biology",60,25,59,25,35,25,27,25,68,25,50,25);
+                callingforgrade("AAKRITI ADHIKARI",11401,"","ELEVEN","biology",64,25,46,25,33,25,39,21,33,21,33,25);
                 break;
                 
+
                 case "11402":
-callingforgrade("DIPAN RAJ NEUPANE",11402,"2064/05/13","ELEVEN","computer",50,25,50,25,22,25,24,25,27,25,40,50);                            
+callingforgrade("AAYUSH GAUTAM",11402,"","ELEVEN","computer",65,25,65,25,46,25,35,21,54,21,46,50);                            
     break;
 
- case "11403":
-callingforgrade("BASANTA PRASAD TIWARI",11403,"2064/02/11","ELEVEN","computer",45,25,50,25,45,25,45,25,27,25,45,50);                            
-    break;
-            
-    case "11404":
-      callingforgrade("ADITI POUDEL",11404,"2064/12/15","ELEVEN","biology",58,25,52,25,52,25,52,25,60,25,60,25);
+
+    case "11403":
+      callingforgrade("AAYUSH  PAUDEL",11403,"","ELEVEN","computer",65,25,55,25,55,25,46,21,46,21,46,50);
+      break;
+
+      case "11404":
+      callingforgrade("ANJEL GHIMIRE",11404,"","ELEVEN","biology",65,25,33,25,40,25,33,21,15,21,33,25);
+      break;
+
+      case "11405":
+      callingforgrade("ANKITA KAFLE",11405,"","ELEVEN","biology",68,25,54,25,54,25,47,21,34,21,54,25);
       break;
     
+      case "11406":
+      callingforgrade("BIPIN PAUDEL",11406,"","ELEVEN","computer",54,25,65,25,54,25,47,21,47,21,44,47);
+      break;
+
+      case "11407":
+      callingforgrade("BISMITA SAPKOTA",11407,"","ELEVEN","biology",68,25,65,25,50,25,55,21,55,21,65,25);
+      break;
+
+      case "11408":
+      callingforgrade("DARSHAN SIGDEL",11408,"","ELEVEN","computer",65,25,54,25,50,25,40,21,40,21,45,48);
+      break;
+
+      case "11409":
+      callingforgrade("HEMANTA PARAJULI",11409,"","ELEVEN","biology",65,25,50,25,50,25,34,21,40,21,50,25);
+      break;
+
+      case "11410":
+      callingforgrade("JAYRAJ DHUNGANA",11410,"","ELEVEN","computer",65,25,40,25,40,25,20,18,20,21,38,46);
+      break;
+
+      case "11411":
+      callingforgrade("KAPIL POUDEL",11411,"","ELEVEN","biology",65,25,55,25,55,25,55,21,68,21,50,25);
+      break;
+
+      case "11412":
+      callingforgrade("LACHHUMAN JAISI",11412,"","ELEVEN","biology",33,25,50,25,33,25,15,17,18,21,40,25);
+      break;
+
+      case "11413":
+      callingforgrade("LIL BADAI RESHMI MAGAR",11413,"","ELEVEN","biology",68,25,65,25,50,25,55,21,55,21,65,25);
+      break;
+
+      case "11414":
+      callingforgrade("MADAN KHARAL",11414,"","ELEVEN","computer",65,25,50,25,18,25,27,18,33,21,36,50);
+      break;
+
+
+      case "11415":
+      callingforgrade("MADHAV NEPAL",11415,"","ELEVEN","computer",68,25,56,25,65,25,55,21,68,21,47,50);
+      break;
+
+      case "11416":
+      callingforgrade("MANASHI SUBEDI",11416,"","ELEVEN","biology",55,25,33,25,15,25,15,18,15,21,27,25);
+      break;
     
+
+      case "11417":
+      callingforgrade("NIRMAL THAPA",11417,"","ELEVEN","biology",65,25,55,25,27,25,33,21,27,21,50,25);
+      break;
+
+      case "11418":
+      callingforgrade("PRABINA TIWARI",11418,"","ELEVEN","biology",65,25,50,25,27,25,27,21,33,21,40,25);
+      break;
+
+      case "11419":
+      callingforgrade("PARDIP KUNWAR",11419,"","ELEVEN","computer",55,25,65,25,69,25,55,21,55,21,47,47);
+      break;
+
+      case "11420":
+      callingforgrade("PARIWARTAN GAUDEL",11420,"","ELEVEN","computer",68,25,55,25,69,25,50,21,68,21,47,46);
+      break;
+
+
+      case "11421":
+      callingforgrade("PRATIMA ADHIKARI",11421,"","ELEVEN","biology",65,25,55,25,40,25,33,21,40,21,50,25);
+      break;
+
+
+      case "11422":
+      callingforgrade("PRIYANKA KANDEL",11422,"","ELEVEN","biology",68,25,50,25,40,25,50,21,33,21,40,25);
+      break;
+
+      case "11423":
+      callingforgrade("RITU KUMARI THAKUR",11423,"","ELEVEN","biology",40,21,40,25,27,25,15,18,15,21,15,25);
+      break;
+
+      case "11424":
+      callingforgrade("RAJ KISHOR PRASAD KURMI",11424,"","ELEVEN","computer",65,25,40,25,27,25,27,18,33,21,44,50);
+      break;
+
+      case "11425":
+      callingforgrade("RANJANA HAMAL",11425,"","ELEVEN","biology",65,25,40,25,20,25,27,18,27,21,40,25);
+      break;
+
+      case "11426":
+      callingforgrade("RANJITA BISHWAKARMA",11426,"","ELEVEN","biology",65,25,50,25,20,25,50,21,27,21,33,25);
+      break;
+
+      case "11427":
+      callingforgrade("SAHAN POUDEL",11427,"","ELEVEN","computer",65,25,40,25,40,25,16,21,16,21,44,47);
+      break;
+
+      case "11428":
+      callingforgrade("SAMANA DEVKOTA",11428,"","ELEVEN","biology",65,25,50,25,33,25,27,21,16,21,27,25);
+      break;
+
+      case "11429":
+      callingforgrade("SHISHIR CHALISE",11429,"","ELEVEN","computer",65,25,55,25,40,25,33,21,27,21,33,46);
+      break;
+
+      case "11430":
+      callingforgrade("SHIVAKALA KUMARI KAPARI",11430,"","ELEVEN","biology",33,21,33,25,10,25,13,18,14,21,18,25);
+      break;
+
+      case "11431":
+      callingforgrade("SHREEJAL KAFLE",11431,"","ELEVEN","biology",68,25,65,25,68,25,68,25,71,25,65,25);
+      break;
+
+      case "11432":
+      callingforgrade("SHUSMITA KUMARI SHARMA",11432,"","ELEVEN","computer",65,25,40,25,18,25,20,21,18,21,27,46);
+      break;
+
+      case "11433":
+      callingforgrade("SHUVAM POUDEL",11433,"","ELEVEN","biology",65,25,50,25,40,25,50,21,55,21,40,25);
+      break;
+
+      case "11434":
+      callingforgrade("SNEHA RAI",11434,"","ELEVEN","computer",65,25,50,25,55,25,50,21,33,21,38,46);
+      break;
+
+      case "11435":
+      callingforgrade("SOMDEV GYAWALI",11435,"","ELEVEN","computer",68,25,65,25,50,25,55,21,68,21,46,48);
+      break;
+
+      case "11436":
+      callingforgrade("SUBRIT DAHAL",11436,"","ELEVEN","computer",68,25,65,25,40,25,50,21,27,21,42,48);
+      break;
+
+      case "11437":
+      callingforgrade("SAMRIDDHI WAGLE",11437,"","ELEVEN","biology",65,25,55,25,28,25,18,21,18,21,33,25);
+      break;
+
+      case "11438":
+      callingforgrade("SUPRIYA POKHREL",11438,"","ELEVEN","biology",65,25,65,25,10,25,18,21,18,21,40,25);
+      break;
+
+      case "11439":
+      callingforgrade("YUBRAJ POUDEL",11439,"","ELEVEN","biology",65,25,55,25,40,25,40,21,27,21,55,25);
+      break;
+
               default:
             alert("Plz Enter your valid symbol no:"); 
     document.getElementById("main-contain").style.display= 'none';
@@ -1207,7 +1352,6 @@ callingforgrade("BASANTA PRASAD TIWARI",11403,"2064/02/11","ELEVEN","computer",4
     
         
         }
-    
     
     
         // }else{
@@ -1220,20 +1364,197 @@ callingforgrade("BASANTA PRASAD TIWARI",11403,"2064/02/11","ELEVEN","computer",4
     
     
     
-    
-    
-    
-   //      const class12=()=>{
+    const class12=()=>{
             
-   //          let symnum=prompt("\nEnter your symbol no:");
-   //  document.getElementById("main-contain").style.opacity="5";
+
+     let symnum=prompt("\nEnter your symbol no:");
+
     
-   //          switch(symnum){
+    document.getElementById("decor2").style.display="none";
+    document.getElementById("main-contain").style.display= 'block';
+    document.getElementById("decor1").style.display= 'block';
+    document.getElementById("resulting").style.display="none";
     
+    switch(symnum){
     
-             
-            
-   //          }}
+      case "12401":
+      callingforgrade("AARATI TIMILSINA",12401,"","TWELVE","biology",60,25,60,25,68,25,68,25,68,25,50,25);
+        break;
+    
+
+                case "12402":
+                callingforgrade("AAYUSHMA OJHA",12402,"","TWELVE","computer");
+                break;
+
+                case "12403":
+                  callingforgrade("ADITI POUDEL",12403,"","TWELVE","biology");
+                  break;            
+
+
+                  case "12404":
+                     callingforgrade("ANSHU SILWAL",12404,"","TWELVE","biology");
+                     break;       
+
+                     case "12405":
+                        callingforgrade("AVISEKH TIWARI",12405,"","TWELVE","computer");
+                        break;
+
+                        case "12406":
+                           callingforgrade("BASANTA PRASAD TIWARI",12406,"","TWELVE","computer");
+                           break;
+
+
+                           case "12407":
+                callingforgrade("BIGYAN BASTAKOTI",12407,"","TWELVE","computer");
+                break;
+
+                case "12408":
+                callingforgrade("DIPAN RAJ NEUPANE",12408,"","TWELVE","computer");
+                break;
+
+                case "12409":
+                callingforgrade("DIPESH SAPKOTA",12409,"","TWELVE","computer");
+                break;
+
+                case "12410":
+                callingforgrade("DIVYA CHAND",12410,"","TWELVE","biology");
+                break;
+
+                
+                case "12411":
+                callingforgrade("HIMANI ARYAL",12411,"","TWELVE","computer");
+                break;
+
+                
+                case "12412":
+                callingforgrade("ISHAN POUDEL",12412,"","TWELVE","biology");
+                break;
+
+                
+                case "12413":
+                callingforgrade("KAPIL SAPKOTA",12413,"","TWELVE","computer");
+                break;
+
+                
+                case "12414":
+                callingforgrade("KARINA GYAWALI",12414,"","TWELVE","biology");
+                break;
+
+                
+                case "12415":
+                callingforgrade("MANISH PANDEY",12415,"","TWELVE","computer");
+                break;
+
+                
+                case "12416":
+                callingforgrade("NIL KUMAR RANA",12416,"","TWELVE","computer");
+                break;
+
+      case "12417":
+      callingforgrade("NISHA SILWAL",12417,"","TWELVE","computer");
+      break;
+
+      case "12418":
+                callingforgrade("NISHAN PARAJULI",12418,"","TWELVE","computer");
+                break;
+
+                case "12419":
+                callingforgrade("PAMITA RANA",12419,"","TWELVE","biology");
+                break;
+
+                case "12420":
+                callingforgrade("PRABESH DHAKAL",12420,"","TWELVE","biology");
+                break;
+
+                case "12421":
+                callingforgrade("PRABINA PARIYAR",12421,"","TWELVE","biology");
+                break;
+
+                case "12422":
+                callingforgrade("PRAKRITI BHANDARI",12422,"","TWELVE","biology");
+                break;
+
+                case "12423":
+                callingforgrade("PRAKRITI BHUSAL",12423,"","TWELVE","biology");
+                break;
+
+                case "12424":
+                callingforgrade("PRASANGAM PATHAK",12424,"","TWELVE","computer");
+                break;
+
+                case "12425":
+                callingforgrade("RAHUL PANGENI",12425,"","TWELVE","computer");
+                break;
+
+                case "12426":
+                callingforgrade("RIJIKA KHANDALUK",12426,"","TWELVE","biology");
+                break;
+
+                case "12427":
+                callingforgrade("RITIKA BASTAKOTI",12427,"","TWELVE","biology");
+                break;
+
+                case "12428":
+                callingforgrade("SAMIKSHYA PANJIYAR",12428,"","TWELVE","biology");
+                break;
+
+                case "12429":
+                callingforgrade("SAMIKSHA SUBEDI",12429,"","TWELVE","biology");
+                break;
+
+                case "12430":
+                callingforgrade("SAMIR POKHREL",12430,"","TWELVE","computer");
+                break;
+
+                case "12431":
+                callingforgrade("SAMPADA UPADHYAY",12431,"","TWELVE","biology");
+                break;
+
+                case "12432":
+                callingforgrade("SAMRIDDHI RIMAL",12432,"","TWELVE","biology");
+                break;
+
+                case "12433":
+                callingforgrade("SANDIP GHARTI",12433,"","TWELVE","computer");
+                break;
+
+                case "12434":
+                callingforgrade("SANTOSH PARAJULI",12434,"","TWELVE","computer");
+                break;
+
+                case "12435":
+                callingforgrade("SAUGAT PAUDEL",12435,"","TWELVE","computer");
+                break;
+
+                case "12436":
+                callingforgrade("SUKPRIMA KUMARI",12436,"","TWELVE","biology");
+                break;
+
+                case "12437":
+                callingforgrade("SUMAN CHANDRA ADHIKARI",12437,"","TWELVE","biology");
+                break;
+
+                case "12438":
+                callingforgrade("SUPATH SHARMA LAMICHHANE",12438,"","TWELVE","computer");
+                break;
+
+                case "12439":
+                callingforgrade("SURNIMA TIWARI",12439,"","TWELVE","computer");
+                break;
+
+                case "12440":
+                callingforgrade("SUSHMA KANDEL",12440,"","TWELVE","computer");
+                break;
+
+                case "12441":
+                callingforgrade("UJJWAL PARAJULI",12441,"","TWELVE","computer");
+                break;
+
+             default:
+                alert("Plz Enter your valid symbol no:"); 
+                document.getElementById("main-contain").style.display= 'none';
+
+            }}
     
     
     
