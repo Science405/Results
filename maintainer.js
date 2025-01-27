@@ -2654,7 +2654,7 @@ callingforgrade("AAYUSH GAUTAM",11402,"","ELEVEN","computer",65,25,55,25,50,25,4
       break;
 
       case "11416":
-      callingforgrade("MANASHI SUBEDI",11416,"","ELEVEN","biology",50,21,40,21,20,19,20,19,20,21,20,21);
+      callingforgrade("MANASHI SUBEDI",11416,"","ELEVEN","biology",50,25,40,25,20,19,20,19,20,21,20,21);
       break;
     
 
@@ -2749,15 +2749,15 @@ callingforgrade("AAYUSH GAUTAM",11402,"","ELEVEN","computer",65,25,55,25,50,25,4
       break;
 
       case "11424":
-      callingforgrade("RAJ KISHOR PRASAD KURMI",11424,"","ELEVEN","computer",33,21,20,21,20,21,20,21,20,21,37,45);
+      callingforgrade("RAJ KISHOR PRASAD KURMI",11424,"","ELEVEN","computer",33,21,20,25,20,21,20,21,20,21,37,45);
       break;
 
       case "11425":
-      callingforgrade("RANJANA HAMAL",11425,"","ELEVEN","biology",65,25,50,21,20,21,20,19,20,21,33,21);
+      callingforgrade("RANJANA HAMAL",11425,"","ELEVEN","biology",65,25,50,25,20,21,20,19,20,21,33,21);
       break;
 
       case "11426":
-      callingforgrade("RANJITA BISHWAKARMA",11426,"","ELEVEN","biology",65,25,50,21,20,21,29,21,20,21,20,21);
+      callingforgrade("RANJITA BISHWAKARMA",11426,"","ELEVEN","biology",65,25,50,25,20,21,29,21,20,21,20,21);
       break;
 
       case "11427":
