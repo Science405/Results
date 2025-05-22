@@ -1,239 +1,93 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JANAK || EXAM|| RESULT</title>
+    <title>Janak College - Results Portal</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <style type="text/css">
-        
-        body{
-            background-color: #777;
-            font-family: Montserrat;
-            /* position: fixed; */
-            /* margin: 0 auto; */
-        }
-        #center{
-       
-    /* position: -webkit-sticky; */
-      margin: 10px;
-      width:37rem;
-      height: 10rem;
-        /* background:linear-gradient(120deg,#b92929,#44ad5b); */
-        background: #aaaaaac5;
-        border-radius: 10px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        .sec{
-            margin: 0 auto;
-            /* transform: translate(50%,50%); */
-/* background-color: aliceblue; */
-/* position: fixed; */
 
-
-
-        }
-        .head{
-    width: 100%;
-    margin: 3px;
-    line-height: 20px;
-    font-size: 14px;
-    
-}
-
-
-        legend{
-  /* padding:10px; */
-  background-color:#240027;
-  border:1px solid #228409;
-  /* font:24px Verdana,Arial, Tahoma;  */
-  font-weight:bold;
-  /* font-size:100%; */
-  color:#FFF;
-  text-align:center;
-  border-radius: 5px;
-  /* height: 25%; */
-  padding:8px ;
-  /* display: inline-block; */
-
-}	
-        #helt{
-        
-            background: linear-gradient(#000000,rgba(0, 0, 255, 0.819));   
-            /* background-color:  #f2f2f262; */
-            background-size:cover;
-            max-width: 1200px;
-            width: 90%;
-            height: 500px;
-            margin: 0 auto;
-            /* left: 50%; */
-            /* position: fixed; */
-margin-top: 80px;
-border-radius: 30px;
-               }
-        #press{
-            font:12px Verdana,Arial, Tahoma;
-            background-color:#33AD14;
-             color:#ddd;
-             padding:8px;
-             border-radius:5px ;
-             
-        }
-        #press:hover{
-            background-color: rgb(0, 0, 47);
-        }
-     
-        h2{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: silver;
-        }
-        #gan{
-            font-family:Arial, Helvetica, sans-serif;
-            color:floralwhite;
-            /* margin-bottom: 0.9rem; */
-        }
-        input[type="number"]{
-            background-color:aliceblue;
-            padding: 5px 5px 5px 10px;
-            border-radius: 5px;
-            border: none;
-            font-size: 20px;
-        }
-        #results{
-            background-color: #00ff37;
-            color: red;
-        }
-        div#decor1{
-            background-color:#0396cd;
-            width:880px; height:auto;
-	margin:0 auto; padding:10px 34px 10px;
-	border:5px Solid #fff;
-            margin: 0 auto;
-            display: none;
-        }
-        font{
-                font-size: 20px;
-            }
-        div#decor2{
-            background-color:#0396cd;
-            width:880px; height:auto;
-	margin:0 auto; padding:10px 34px 10px;
-	border:5px Solid #fff;
-            margin: 0 auto;
-            display: none;
-        }
-        #resulting{
-            color: aliceblue;
-            /* display: flex; */
-            margin: 0 auto;
-        }
-        @media print {
-            
-#helt{
-    display: none;
-}
-           }
-        
-
-
-        @media (max-width:500px){
-            html{
-font-size: 74%;
-            }
-            #helt{
-                /* width: 50rem; */
-                max-width: 1200px;
-                width: 800px;
-                /* margin-left: 4rem; */
-               margin: 0px 15px 0px 15px;
-            }
-          
-              h4,#gan,h2{ 
-                font-size: 1.7rem;
-            } 
-            #center{
-                /* padding: 10px; */
-width: 55rem;
-height: 16.5rem;
-            }
-
-            input[type="number"]{
-                font-size: 25px;
-                padding: 10px;
-                width: 28rem;
-            }
-            #press{
-                padding: 14px;
-                font-size: 20px;
-
-            }
-            font{
-                font-size: 30px;
-            }
-            
-           
-           
-            /* #helt{
-                height: 35rem;
-            } */
-            /* h2{
-                font-size: 10px;
-            } */
-            .sec{
-                padding: 10px;
-            }
-            legend{
-                font-size: 1.7rem;
-            }
-
-            /* for grade only */
-
-        #main-contain{
-            max-width: 60rem;
-            width: 60rem;
-            height: 83rem;
-            font-size: 14px;
-            
-        }
-           table{
-            width: 55rem;
-          
-           }
-       
-           
-           
-            
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body oncontextmenu="return false">
-<div id="helt">
-    <div class="sec">
-    <center>
-    <h2><b>JANAK SECONDARY SCHOOL &nbsp;'SCIENCE'</b></h2><h3 id="gan">Gaindakot-5,&nbsp;Nawalpur</h3>
-        <br>
-    
-    <div id="center">
-    
-   
-    
-    <legend>XI AND XII EXAM RESULT</legend></h4><br>
-<b><font size="3">CLASS&nbsp;&nbsp;&nbsp;:</font></b>&nbsp;&nbsp;&nbsp; <input type="number"id="class" placeholder="Enter your Class...&nbsp;&nbsp;eg:11"required>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- <button id="press"onclick="recalling()"><b>Submit
-    
- </b></button>
-    
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="School Logo">
+                <h1>Janak Model Secondary School</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-</div><br>
-<b><i><h3 id="gan">+2 Coordinator : Narayan Sharma Tiwari<br>Contact No:&nbsp;9855038352
-</h3><br><hr color="red"></i></b>
-</center>
-</div></div>
-     <script src="maintainer.js"></script>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Student Results Portal</h2>
+                <p>Check your examination results online</p>
+            </div>
+        </section>
+
+        <section class="result-form">
+            <div class="container">
+                <div class="form-container">
+                    <h3>Enter Your Details</h3>
+                    <!-- <form id="resultForm"> -->
+                        <div class="form-group">
+                            <label for="symbolNo">Symbol Number</label>
+                            <input type="text" id="symbolNo" name="symbolNo" placeholder="Enter your symbol number   eg:17600111" required>
+                        </div>
+                        <button type="submit" class="btn"onclick="callinghim()">View Result <i class="fas fa-arrow-right"></i></button>
+                    <!-- </form> -->
+                </div>
+            </div>
+        </section>
+
+           </main>
+
+    <footer id="endof">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Academic Calendar</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Gaindakot-5, Congresschowk</p>
+                    <p><i class="fas fa-phone"></i>:078-501112</p>
+                    <p><i class="fas fa-envelope"></i> https://jhss.edu.np/</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Janak Model Secondary School. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="new.js"></script>
     
     <!-- end of the entry one -->
 
@@ -243,152 +97,131 @@ height: 16.5rem;
 
 <br><br>
 <!-- making of loading result -->
-<div id="decor2">
-    <h2 id="resulting">The Result is loading ....</h2>
-</div>
-<br> <br>
 <div id="decor1">
-
-    <br><br><br>
-<div id="main-contain">
-    <h4>
-       <i class="fas fa-phone-volume"></i>:078-501112&nbsp;
-</h4>
-  <div class="second">
-         <div class="third"> <img src="logo.png" alt="logo of school"class="imgs">
-          <center>
-<H3>JANAK MODEL SECONDARY SCHOOL<BR>GAINDAKOT-5,NAWALPUR<BR>Estd:2015</H3></center>
+    <div id="main-contain">
+        <h4>
+            <i class="fas fa-phone-volume"></i>: 078-501112 &nbsp; | &nbsp;
+            <i class="fas fa-envelope"></i>: info@janakschool.edu.np
+        </h4>
+        <div class="second">
+            <div class="third">
+                <img src="logo.png" alt="logo of school" class="imgs">
+                <center>
+                    <H3>JANAK MODEL SECONDARY SCHOOL</H3>
+                    <p style="color: var(--text-light); margin-top: 5px;">GAINDAKOT-5, NAWALPUR | Estd: 2015</p>
+                </center>
+            </div>
+            <hr>
+            
+            <h3 class="gra">GRADE-SHEET</h3>
+            
+            <nav>
+                THE GRADE(S) SECURED BY <B id="name1"></B></b> &nbsp; | &nbsp;
+                SYMBOL NO: <b id="sym1"></b> &nbsp; | &nbsp;
+                DATE OF BIRTH: <b id="dob1"></b> &nbsp; | &nbsp;
+                GRADE: <b id="cls1"></b>
+                <br>
+                IN THE ANNUAL TERMINAL EXAMINATION CONDUCTED IN 2081 BS ARE GIVEN BELOW:
+            </nav>
+            
+            <div class="table-container">
+                <table class="tbl">
+                    <thead>
+                        <tr>
+                            <th>Subject Code</th>
+                            <th>Subjects</th>
+                            <th>Credit Hour<br>(CH)</th>
+                            <th>Grade Point<br>(GP)</th>
+                            <th>Grade</th>
+                            <th>Final Grade<br>(FG)</th>
+                            <th>Remarks</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0031</td>
+                            <td>COM. ENGLISH</td>
+                            <td>3.00(TH)<br>1.00(IN)</td>
+                            <td id="engthpr"></td>
+                            <td id="gr1"></td>
+                            <td id="mark1"></td>
+                            <td id="remarkeng"></td>
+                        </tr>
+                        <tr>
+                            <td>0011</td>
+                            <td>COM. NEPALI</td>
+                            <td>2.25(TH)<br>0.75(IN)</td>
+                            <td id="nepthpr"></td>
+                            <td id="gr2"></td>
+                            <td id="mark2"></td>
+                            <td id="remarknep"></td>
+                        </tr>
+                        <tr>
+                            <td>0071</td>
+                            <td>COM. MATHEMATICS</td>
+                            <td>3.75(TH)<br>1.25(IN)</td>
+                            <td id="maththpr"></td>
+                            <td id="gr3"></td>
+                            <td id="mark3"></td>
+                            <td id="remarkmath"></td>
+                        </tr>
+                        <tr>
+                            <td>1011</td>
+                            <td>PHYSICS</td>
+                            <td>3.75(TH)<br>1.25(IN)</td>
+                            <td id="phythpr"></td>
+                            <td id="gr4"></td>
+                            <td id="mark4"></td>
+                            <td id="remarkphy"></td>
+                        </tr>
+                        <tr>
+                            <td>3011</td>
+                            <td>CHEMISTRY</td>
+                            <td>3.75(TH)<br>1.25(IN)</td>
+                            <td id="chethpr"></td>
+                            <td id="gr5"></td>
+                            <td id="mark5"></td>
+                            <td id="remarkche"></td>
+                        </tr>
+                        <tr>
+                            <td>4271</td>
+                            <td id="change"></td>
+                            <td id="change1"></td>
+                            <td id="comthpr"></td>
+                            <td id="gr6"></td>
+                            <td id="mark6"></td>
+                            <td id="remarkcom"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td colspan="4" style="text-align: center;"><b>Grade Point Average (GPA):</b></td>
+                            <td colspan="2"><b id="gpatotal"></b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <hr>
+            
+            <div class="notes">
+                <p><b>NOTE:</b> ONE CREDIT HOUR EQUALS TO 32 WORKING HOURS.</p>
+                <p><b>INTERNAL (IN):</b> THIS COVERS THE PARTICIPATION, PRACTICAL/PROJECTS WORKS, INTERNSHIP, COMMUNITY WORKS, PRESENTATIONS TERMINAL EXAMINATION.</p>
+                <p><b>THEORY (TH):</b> THIS COVERS WRITTEN EXTERNAL EXAMINATION [ABS = ABSENT | W = WITHHELD]</p>
+            </div>
+            
+            <div style="margin-top: 30px; display: flex; justify-content: space-between;">
+                <div style="text-align: center;">
+                    <div style="height: 1px; background: var(--border-color); width: 150px; margin: 0 auto;"></div>
+                    <p style="margin-top: 5px;">Class Teacher</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="height: 1px; background: var(--border-color); width: 150px; margin: 0 auto;"></div>
+                    <p style="margin-top: 5px;">Principal</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <hr color="#eee">
- 
-    <h3 class="gra">GRADE-SHEET</h3>
-    
-    <header>
-    THE GRADE(S) SECURED BY <B id="name1"></B></b>&nbsp;&nbsp;&nbsp;
-    SYMBOL NO:&nbsp;&nbsp;<b id="sym1"></b>&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;DATE OF BIRTH:&nbsp;&nbsp;
-    <b id="dob1"></b>&nbsp;&nbsp;&nbsp;&nbsp;
-    GRADE:&nbsp;&nbsp;&nbsp;<b id="cls1"></b>
-  
-    &nbsp;&nbsp;
-   
-    IN THE SECOND TERMINAL EXAMINATION CONDUCTED IN 2081 BS ARE GIVEN BELOW:
-</header>   
-<br>
-<table border="3"border-color="black"cellpadding="10"cellspacing="0"class="tbl">
-<thead>
- <tr>
-    <td width="1%">Subject Code</td>
-    <td width="30%"align="center">Subjects</td>
-    <td width="1%">Credit Hour<br>(CH)</td>
-    <td width="10%">Grade Point<br>(GP)</td>
-    <td width="10%"align="center">Grade</td>
-    <td width="3%">Final Grade<br>(FG)</td>
-    <td width="10%">Remarks</td>
- </tr>
-</thead>
-
-<tbody>
-<tr>
- <td>0031</td>
- <td>COM.ENGLISH</td>
- <td>3.00(TH)<br>1.00(IN)</td>
- <td id="engthpr"></td>
- <td id="gr1"></td>
- <td id="mark1"align="center"></td>
- <td id="remarkeng"></td>
-</tr>
-
-
-<tr>
- <td>0011</td>
- <td>COM.NEPALI</td>
- <td>2.25(TH)<br>0.75(IN)</td>
- <td id="nepthpr"></td>
- <td id="gr2"></td>
- <td id="mark2"align="center"></td>
- <td id="remarknep"></td>
-</tr>
-
-
-
-<tr>
- <td>0071</td>
- <td>COM.MATHEMATICS</td>
- <td>3.75(TH)<br>1.25(IN)</td>
- <td id="maththpr"></td>
- <td id="gr3"></td>
- <td id="mark3"align="center"></td>
- <td id="remarkmath"></td>
-</tr>
-
-
-
-<tr>
- <td>1011</td>
- <td>PHYSICS</td>
- <td>3.75(TH)<br>1.25(IN)</td>
- <td id="phythpr"></td>
- <td id="gr4"></td>
- <td id="mark4"align="center"></td>
- <td id="remarkphy"></td>
-</tr>
-
-
-
-<tr>
- <td>3011</td>
- <td>CHEMISTRY</td>
- <td>3.75(TH)<br>1.25(IN)</td>
- <td id="chethpr"></td>
- <td id="gr5"></td>
- <td id="mark5"align="center"></td>
- <td id="remarkche"></td>
-</tr>
-
-
-
-<tr>
- <td>4271</td>
- <td id="change"></td>
- <td id="change1"></td>
- <td id="comthpr"></td>
- <td id="gr6"></td>
- <td id="mark6"align="center"></td>
- <td id="remarkcom"></td>
-</tr>
-
-
-<tr>
- <td></td>
- <td></td>
- <td colspan="4"align="center"><b>Grade Point Average(GPA):</b></td>
- <td colspan="2"><b id="gpatotal"></b></td>
-</tr>
-
-
-</tbody>
-
-</table>
-<hr color="gray"><br>
-NOTE&nbsp;:&nbsp;&nbsp;&nbsp;ONE CREDIT HOUR EQUALS TO 32 WORKING HOURS.<br>
-INTERNAL(IN)&nbsp;:&nbsp;&nbsp;THIS COVERS THE PARTICIPATION,PRACTICAL/PROJECTS WORKS,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INTERNSHIP,COMMUNITY WORKS,PRESENTATIONS TERMINAL EXAMINATION.
-
-<br>THEORY (TH) &nbsp;:&nbsp;THIS COVERS WRITTEN EXTERNAL EXAMINATION&nbsp;&nbsp;&nbsp;
-[
-ABS=&nbsp;ABSENT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W=WITHHELD]
-<!-- <h3 class="h">
-Head Principal     
-</h3><h3 class="h1">Class Teacher</h3><h3 class="h2">Exam Coordinator</h3><h3 class="h3">+2 Coordinator</h3></footer>  -->
-
 </div>
- </div> <br><br><br></div>
-
-
-
-
-  
 
 </body>
 </html>
